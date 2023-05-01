@@ -1,0 +1,139 @@
+.heading{
+    padding: 100px 0 0;
+    font-family: 'Pacifico';
+    color: #23bbf2 ;
+    font-size:72px;
+    font-weight:900;
+    line-height:2.5px;
+    /* width: 900px; */
+}
+.heading:hover{
+    color : #56cbf5;
+}
+.sub-heading{
+    padding: 150px 0 0 ;
+    font-family: 'Montserrat'; 
+    color: rgb(4, 4, 4) ;
+    font-weight:300 ;
+    font-size: 32px; 
+    padding: 50px;
+}
+.main-icon{
+    color: #b30000; 
+    margin:9px 7px 0;
+    margin-left: 27px;
+   
+    
+}
+.main-icon:hover{
+    color : #ff3333;
+} 
+.navbar{
+    padding-bottom: 0 0 4.5rem;
+}
+/* Navigation Bar */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.about-img{
+    border-radius: 5%;
+    width: 700px;
+    padding-top: -10%;
+    padding-right: 150px;
+    float: right;
+    
+}
+.quote{
+    text-align: center;
+    /* background-color: #f9f93b; */
+    background: linear-gradient(300deg, /*#00bfff*/#4dd2ff , #f9f93b );
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+.head-quote{
+    font-family : Montserrat ;
+    padding-left: 100px; 
+    padding-right: 100px;
+    padding-top: 100px; 
+    padding-bottom:10px ;
+    color: rgb(167, 167, 167); 
+}
+.quote-image{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    align-self: center;
+    margin-left: 45%;
+    margin-top : 3%;
+    /* opacity: 50%; */
+}
+.em-style{
+   font-family: Ubuntu; 
+   color:#a6a6a6; 
+   padding-left:1%;
+}
+.gradient-background{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.quote-image-sunset{
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: 50%;
+    align-self: center;
+    margin-left: 45%;
+    margin-top : 4%;
+     opacity: 70%;
+}
+.box{
+    font-family : Ubuntu;
+    color: #a6a6a6;
+    font-size:24px;
+}
+.head-chatbot{
+    font-family : 'Pacifico';
+    padding-left: 100px; 
+    padding-right: 100px;
+    padding-top: 100px; 
+    padding-bottom:10px ;
+    color: #23bbf2; 
+}
+.head-chatbot:hover{
+    color :#56cbf5;
+}
+.bot-icon{
+    padding-left: 100px; 
+    padding-right: 100px;
+    padding-top: 100px; 
+    padding-bottom:10px ;
+    color: #23bbf2; 
+}
+.bot-icon:hover{
+    color : rgb(167, 167, 167);
+}
+.con-icon{
+    color: #23bbf2; 
+}
+.con-icon:hover{
+    color : #56cbf5;
+}
